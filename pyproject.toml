@@ -44,7 +44,7 @@ gendfir = "gendfir.cli:main"
 [project.urls]
 Homepage = "https://github.com/Juwon1405/yushin-gendfir-rag"
 Repository = "https://github.com/Juwon1405/yushin-gendfir-rag"
-"Original Paper" = "https://github.com/GenDFIR"
+"Original Paper" = "https://github.com/GenDFIR/GenDFIR"
 
 [tool.setuptools.packages.find]
 include = ["gendfir*"]

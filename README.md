@@ -8,7 +8,7 @@
 [![Paper](https://img.shields.io/badge/paper-Loumachi%20et%20al.%202024-b31b1b)](#-citation)
 [![Status](https://img.shields.io/badge/status-replication%20study-yellow)]()
 
-> ⚠️ **This is an unofficial, educational re-implementation.** The original paper is by Loumachi, Ghanem & Ferrag (London Metropolitan University / University of Liverpool, 2024). The official authors' repository is at <https://github.com/GenDFIR>. This repo is **not affiliated with the original authors**; it exists for learning, reproducibility study, and extension experiments. Please cite the original paper — see [Citation](#-citation).
+> ⚠️ **This is an unofficial, educational re-implementation.** The original paper is by Loumachi, Ghanem & Ferrag (London Metropolitan University / University of Liverpool, 2024). The authors' code lives at **<https://github.com/GenDFIR/GenDFIR>** (the paper's reference [62] cites the short form `github.com/GenDFIR`, which is the user profile; the actual repository is one level deeper). This repo is **not affiliated with the original authors**; it exists for learning, reproducibility study, and extension experiments. Please cite the original paper — see [Citation](#-citation).
 
 ---
 
@@ -208,7 +208,7 @@ If you use this code in academic work, please cite the **original paper** as the
   author       = {Loumachi, Fatma Yasmine and Ghanem, Mohamed Chahine and
                   Ferrag, Mohamed Amine},
   year         = {2024},
-  howpublished = {\url{https://github.com/GenDFIR}},
+  howpublished = {\url{https://github.com/GenDFIR/GenDFIR}},
   note         = {Cyber Security Research Centre, London Metropolitan University, UK;
                   Cybersecurity Institute, University of Liverpool, UK.}
 }

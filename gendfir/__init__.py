@@ -8,7 +8,7 @@ This package is an unofficial, educational replication of the GenDFIR paper:
     Retrieval-Augmented Generation and Large Language Models.
     arXiv preprint.
 
-The official authors' repository is at https://github.com/GenDFIR.
+The official authors' repository is at https://github.com/GenDFIR/GenDFIR.
 This package is NOT affiliated with the original authors. It exists
 purely for learning, reproducibility study, and extension experiments.
 

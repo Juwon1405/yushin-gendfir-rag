@@ -82,6 +82,6 @@ For reference, the paper reports on six scenarios:
 
 Reproducing these numbers requires the original paper's exact
 synthetic datasets, which are released under the authors' repository
-at https://github.com/GenDFIR. The CSV scenarios in `examples/` here
+at https://github.com/GenDFIR/GenDFIR. The CSV scenarios in `examples/` here
 are written from scratch and cover similar topics but are NOT the
 same data — comparison numbers will differ accordingly.
