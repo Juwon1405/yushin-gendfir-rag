@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: >-
+  This software is an unofficial replication study of the GenDFIR paper.
+  When citing this software, please ALSO cite the original paper.
+title: "yushin-gendfir-rag"
+authors:
+  - family-names: "Bang"
+    given-names: "Juwon"
+    alias: "YuShin"
+type: software
+license: MIT
+repository-code: "https://github.com/Juwon1405/yushin-gendfir-rag"
+abstract: >-
+  An unofficial Python re-implementation of the GenDFIR pipeline
+  (Loumachi, Ghanem & Ferrag, 2024). Provides a modular RAG + LLM
+  pipeline (chunking, embedding, top-k retrieval, scaled-dot-product
+  attention, timeline generation) for cyber-incident timeline analysis,
+  along with synthetic test scenarios and unit tests covering the
+  paper's core equations.
+keywords:
+  - DFIR
+  - Digital Forensics
+  - Incident Response
+  - RAG
+  - Retrieval-Augmented Generation
+  - Large Language Models
+  - Llama
+  - Timeline Analysis
+references:
+  - type: article
+    title: "GenDFIR: Advancing Cyber Incident Timeline Analysis Through Retrieval-Augmented Generation and Large Language Models"
+    authors:
+      - family-names: "Loumachi"
+        given-names: "Fatma Yasmine"
+      - family-names: "Ghanem"
+        given-names: "Mohamed Chahine"
+      - family-names: "Ferrag"
+        given-names: "Mohamed Amine"
+    year: 2024
+    url: "https://github.com/GenDFIR"
+    notes: >-
+      Cyber Security Research Centre, London Metropolitan University, UK;
+      Cybersecurity Institute, University of Liverpool, UK.

@@ -1,0 +1,15 @@
+timestamp,source_ip,dest_ip,protocol,flag,event,count
+2024-11-04 14:01:02,198.51.100.7,203.0.113.10,TCP,SYN,SYN packet observed,1
+2024-11-04 14:01:03,198.51.100.7,203.0.113.10,TCP,SYN,SYN packet observed,420
+2024-11-04 14:01:04,198.51.100.7,203.0.113.10,TCP,SYN,SYN packet observed,1280
+2024-11-04 14:01:05,198.51.100.7,203.0.113.10,TCP,SYN,SYN packet observed,3120
+2024-11-04 14:01:08,198.51.100.7,203.0.113.10,TCP,SYN,SYN packet observed,8400
+2024-11-04 14:01:12,N/A,203.0.113.10,TCP,N/A,Half-open connection table near capacity,N/A
+2024-11-04 14:01:15,N/A,203.0.113.10,TCP,N/A,Connection backlog full - new connections dropped,N/A
+2024-11-04 14:01:20,198.51.100.7,203.0.113.10,TCP,SYN,SYN packet observed (sustained),12000
+2024-11-04 14:01:30,N/A,203.0.113.10,N/A,N/A,Web server response time degraded above 5s,N/A
+2024-11-04 14:01:45,N/A,203.0.113.10,N/A,N/A,Health probe failed - service marked unhealthy,N/A
+2024-11-04 14:02:00,N/A,203.0.113.10,N/A,N/A,SYN cookies enabled by kernel,N/A
+2024-11-04 14:02:30,198.51.100.7,203.0.113.10,TCP,SYN,Source IP added to rate-limit list,N/A
+2024-11-04 14:03:00,198.51.100.7,203.0.113.10,TCP,SYN,Source IP blackholed at edge router,N/A
+2024-11-04 14:05:00,N/A,203.0.113.10,N/A,N/A,Service availability restored,N/A

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# macOS / Editors
+.DS_Store
+.AppleDouble
+__MACOSX
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local outputs / scratch
+output/
+runs/
+tmp/
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example

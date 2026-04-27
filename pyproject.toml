@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gendfir-rag"
+version = "0.2.0"
+description = "Unofficial replication study of Loumachi, Ghanem & Ferrag (2024) — RAG + LLM for DFIR cyber-incident timeline analysis."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "YuShin (Bang Juwon)", email = "juwon1405.jp@doubles1405.com" }
+]
+keywords = ["dfir", "incident-response", "rag", "llm", "timeline-analysis", "forensics", "ollama", "llama"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+ollama = ["ollama>=0.3"]
+sentence-transformers = ["sentence-transformers>=2.7"]
+all = ["ollama>=0.3", "sentence-transformers>=2.7"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+gendfir = "gendfir.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Juwon1405/yushin-gendfir-rag"
+Repository = "https://github.com/Juwon1405/yushin-gendfir-rag"
+"Original Paper" = "https://github.com/GenDFIR"
+
+[tool.setuptools.packages.find]
+include = ["gendfir*"]
+exclude = ["tests*", "examples*", "docs*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"

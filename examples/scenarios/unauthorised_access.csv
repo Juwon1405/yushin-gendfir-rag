@@ -1,0 +1,21 @@
+timestamp,event_id,source,host,user,description
+2016-09-15 02:16:37,5038,System,SRV-DC1,SYSTEM,Integrity of system file failed
+2016-09-15 02:17:05,4723,Windows Security,SRV-DC1,bob,Attempt to change account password
+2016-09-15 02:17:21,4625,Windows Security,SRV-DC1,bob,Logon attempt failed
+2016-09-15 02:20:12,4769,Security,SRV-DC1,bob,Kerberos service ticket request failed
+2016-09-15 02:22:30,4771,Security,SRV-DC1,bob,Pre-authentication failed
+2016-09-15 02:24:12,4724,Windows Security,SRV-DC1,bob,Password reset attempt
+2016-09-15 02:24:45,5031,Security,SRV-DC1,SYSTEM,Firewall service encountered an error
+2016-09-15 02:27:15,4776,Windows Security,SRV-DC1,bob,Logon failure due to incorrect credentials
+2016-09-15 02:30:01,4771,Security,SRV-DC1,bob,Pre-authentication failed
+2016-09-15 02:31:55,4723,Windows Security,SRV-DC1,bob,Attempt to change account password
+2016-09-15 02:32:07,5038,System,SRV-DC1,SYSTEM,Integrity of system file failed
+2016-09-15 02:34:30,4771,Security,SRV-DC1,bob,Pre-authentication failed
+2016-09-15 02:36:15,4776,Windows Security,SRV-DC1,bob,Logon failure due to incorrect credentials
+2016-09-15 02:36:30,5031,Security,SRV-DC1,SYSTEM,Firewall service encountered an error
+2016-09-15 02:37:45,4625,Windows Security,SRV-DC1,bob,Logon attempt failed
+2016-09-15 03:02:11,4624,Windows Security,SRV-DC1,bob,Successful logon (Type=3)
+2016-09-15 03:02:47,4672,Windows Security,SRV-DC1,bob,Special privileges assigned to new logon
+2016-09-15 03:05:30,4688,Windows Security,SRV-DC1,bob,Process creation - cmd.exe
+2016-09-15 03:07:12,4688,Windows Security,SRV-DC1,bob,Process creation - net.exe user /add
+2016-09-15 03:09:08,4720,Windows Security,SRV-DC1,bob,A user account was created
